@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b31ef572-60df-400e-8832-827a9e3de591" name="Changes" comment="Changes&#10;* Removed Scanner Utility&#10;* Set hourlyWage to 20 explicitly&#10;* Added Monthly salary calculation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b31ef572-60df-400e-8832-827a9e3de591" name="Changes" comment="Changes&#10;* Adding variables to generalize">
       <change beforePath="$PROJECT_DIR$/src/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       <workItem from="1655495061175" duration="1098000" />
       <workItem from="1655998712463" duration="530000" />
       <workItem from="1655999689617" duration="35000" />
-      <workItem from="1656005372278" duration="870000" />
+      <workItem from="1656005372278" duration="1678000" />
     </task>
     <task id="LOCAL-00001" summary="working correctly">
       <created>1655999226954</created>
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656005827629</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes&#10;* Adding variables to generalize">
+      <created>1656006246285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656006246285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working correctly" />
     <MESSAGE value="Changes&#10;* Removed Scanner Utility&#10;* Set hourlyWage to 20 explicitly&#10;* Added Monthly salary calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes&#10;* Removed Scanner Utility&#10;* Set hourlyWage to 20 explicitly&#10;* Added Monthly salary calculation" />
+    <MESSAGE value="Changes&#10;* Adding variables to generalize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes&#10;* Adding variables to generalize" />
   </component>
 </project>

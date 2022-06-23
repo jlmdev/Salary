@@ -4,18 +4,29 @@ Josh Mann
 6-23-22
  */
 
+import java.util.Scanner;
+
 public class Salary {
     public static void main(String [] args) {
+        Scanner scnr = new Scanner(System.in);
         int hourlyWage;
         int workHoursPerWeek;
-        int annualSalary;
         int workWeeksPerYear;
+        final int MONTHS_PER_YEAR = 12;
+        int annualSalary;
         int monthlySalary;
 
-        hourlyWage = 20;
-        workHoursPerWeek = 35;
-        annualSalary = hourlyWage * workHoursPerWeek * 50;
-        monthlySalary = annualSalary / 12;
+        System.out.println("Enter hourly wage: ");
+        hourlyWage = scnr.nextInt();
+
+        System.out.println("Enter hours per week: ");
+        workHoursPerWeek = scnr.nextInt();
+
+        System.out.println("Enter weeks per year: ");
+        workWeeksPerYear = scnr.nextInt();
+
+        annualSalary = hourlyWage * workHoursPerWeek * workWeeksPerYear;
+        monthlySalary = annualSalary / MONTHS_PER_YEAR;
 
         System.out.print("Annual salary is: ");
         System.out.println(annualSalary);
