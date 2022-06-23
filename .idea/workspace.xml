@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b31ef572-60df-400e-8832-827a9e3de591" name="Changes" comment="Changes&#10;* Adding variables to generalize">
-      <change beforePath="$PROJECT_DIR$/src/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salary.java" afterDir="false" />
+    <list default="true" id="b31ef572-60df-400e-8832-827a9e3de591" name="Changes" comment="Changes&#10;* Adding variables to generalize again&#10;* Initializing workHoursPerWeek and workWeeksPerYear to 0&#10;* Set months per year to final int variable (constant)&#10;* Added Scanner utility 'scnr'&#10;* Added inputs for hourlyWage, workHoursPerWeek, and workWeeksPerYear.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Salary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Salary.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +29,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Salary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Salary" />
@@ -63,7 +78,7 @@
       <workItem from="1655495061175" duration="1098000" />
       <workItem from="1655998712463" duration="530000" />
       <workItem from="1655999689617" duration="35000" />
-      <workItem from="1656005372278" duration="1678000" />
+      <workItem from="1656005372278" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="working correctly">
       <created>1655999226954</created>
@@ -86,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656006246285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes&#10;* Adding variables to generalize again&#10;* Initializing workHoursPerWeek and workWeeksPerYear to 0&#10;* Set months per year to final int variable (constant)&#10;* Added Scanner utility 'scnr'&#10;* Added inputs for hourlyWage, workHoursPerWeek, and workWeeksPerYear.">
+      <created>1656007122592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656007122592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +129,7 @@
     <MESSAGE value="working correctly" />
     <MESSAGE value="Changes&#10;* Removed Scanner Utility&#10;* Set hourlyWage to 20 explicitly&#10;* Added Monthly salary calculation" />
     <MESSAGE value="Changes&#10;* Adding variables to generalize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes&#10;* Adding variables to generalize" />
+    <MESSAGE value="Changes&#10;* Adding variables to generalize again&#10;* Initializing workHoursPerWeek and workWeeksPerYear to 0&#10;* Set months per year to final int variable (constant)&#10;* Added Scanner utility 'scnr'&#10;* Added inputs for hourlyWage, workHoursPerWeek, and workWeeksPerYear." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes&#10;* Adding variables to generalize again&#10;* Initializing workHoursPerWeek and workWeeksPerYear to 0&#10;* Set months per year to final int variable (constant)&#10;* Added Scanner utility 'scnr'&#10;* Added inputs for hourlyWage, workHoursPerWeek, and workWeeksPerYear." />
   </component>
 </project>
