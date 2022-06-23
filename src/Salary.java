@@ -1,13 +1,15 @@
-import java.util.Scanner;
+
 
 public class Salary {
     public static void main(String [] args) {
-        int wage;
+        int hourlyWage;
 
-        Scanner scnr = new Scanner(System.in);
-        wage = scnr.nextInt();
+        hourlyWage = 20;
 
-        System.out.print("Salary is ");
-        System.out.println(wage * 40 * 52);
+        System.out.print("Annual salary is: ");
+        System.out.println(hourlyWage * 40 * 50);
+
+        System.out.print("Monthly salary is: ");
+        System.out.println((hourlyWage * 40 * 50) / 12);
     }
 }
